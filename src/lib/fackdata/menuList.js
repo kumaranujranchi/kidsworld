@@ -1,7 +1,7 @@
 export const menuList = [
     {
         id: 1,
-        path: "#",
+        path: "/", // Fix: Home should navigate to root
         label: "Home",
         dropDownMenu: false
     },

@@ -41,9 +41,22 @@ const MobileMenu = ({ isMobleMenuActive, setIsMobleMenuActive }) => {
                 <ul className=" mt-6">
                     {
                         menuList.map(({ dropDownMenu, id, label, path }) => {
+                            const isHome = path === '/'
                             return (
                                 <li key={id} className="leading-[164%] relative w-full dropdown">
-                                    <Link onClick={() => setDropdownActive(dropdownActive === id ? null : id)} to={path} className="font-jost py-3 border-b border-b-slate-300 text-[#385469] flex justify-between items-center">
+                                    <Link
+                                        onClick={(e) => {
+                                            // For non-home items with dropdowns, toggle open without navigating on '#'
+                                            if (dropDownMenu && dropDownMenu.length) {
+                                                e.preventDefault()
+                                                setDropdownActive(dropdownActive === id ? null : id)
+                                            } else {
+                                                setIsMobleMenuActive(false)
+                                            }
+                                        }}
+                                        to={path}
+                                        className="font-jost py-3 border-b border-b-slate-300 text-[#385469] flex justify-between items-center"
+                                    >
                                         <span>{label}</span>
                                         {dropDownMenu.length && <FaPlus />}
                                     </Link>
@@ -52,7 +65,7 @@ const MobileMenu = ({ isMobleMenuActive, setIsMobleMenuActive }) => {
                                             {dropDownMenu.map(({ id, label, path }) => {
                                                 return (
                                                     <li key={id}>
-                                                        <Link to={path} className="text-[#385469] font-jost hover:text-secondary-foreground transition-all duration-500 py-2.5 px-6 block border-b border-b-slate-300">{label}</Link>
+                                                        <Link to={path} onClick={() => setIsMobleMenuActive(false)} className="text-[#385469] font-jost hover:text-secondary-foreground transition-all duration-500 py-2.5 px-6 block border-b border-b-slate-300">{label}</Link>
                                                     </li>
                                                 )
                                             })}
