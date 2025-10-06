@@ -21,26 +21,26 @@ const HeaderOne = () => {
                 <div id="header-container">
                     <TopHeader />
                     <div className="[.header-pinned_&]:shadow-md bg-background transition-all duration-300">
-                        <div className="container py-5 ">
-                            <div className="flex justify-between items-center ">
+                        <div className="container py-4 sm:py-5 ">
+                            <div className="flex justify-between items-center gap-3 ">
                                 <Logo />
                                 <div className="flex items-center">
                                     <DesktopMenu />
                                     <MobileMenu isMobleMenuActive={isMobleMenuActive} setIsMobleMenuActive={setIsMobleMenuActive} />
 
-                                    <div className="flex items-center gap-6 ">
-                                        <div className="ml-16 cursor-pointer" onClick={() => setIsSerchActive(true)}>
-                                            <FaMagnifyingGlass className='text-xl' />
-                                        </div>
+                                    <div className="flex items-center gap-5 sm:gap-6 ">
+                                        <button type="button" className="ml-6 sm:ml-16 cursor-pointer" onClick={() => setIsSerchActive(true)} aria-label="Open search">
+                                            <FaMagnifyingGlass className='text-lg sm:text-xl' />
+                                        </button>
                                         <Button asChild variant="ghost" className="sm:flex hidden">
                                             <Link to={"/contact-us"}> Get A Quote <FaArrowRight /></Link>
                                         </Button>
 
-                                        <div className="flex xl:hidden flex-col items-end cursor-pointer transition-all duration-500" onClick={() => setIsMobleMenuActive(true)}>
+                                        <button type="button" aria-label="Open mobile menu" className="flex xl:hidden flex-col items-end cursor-pointer transition-all duration-500" onClick={() => setIsMobleMenuActive(true)}>
                                             <span className="block h-[3px] w-5 bg-muted"></span>
                                             <span className="block h-[3px] w-7.5 bg-muted mt-2"></span>
                                             <span className="block h-[3px] w-5 bg-muted mt-2"></span>
-                                        </div>
+                                        </button>
                                     </div>
 
                                     <SearchForm isSerchActive={isSerchActive} setIsSerchActive={setIsSerchActive} />

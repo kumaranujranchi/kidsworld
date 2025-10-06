@@ -14,7 +14,7 @@ const Title = ({ children, size, className }) => {
     if (size === "7.5xl") {
         return (
             <SlideUp delay={2}>
-                <h1 className={cn(`xl:text-[70px] lg:text-6xl md:text-5xl text-4xl font-bold xl:leading-[128%] lg:leading-[125%] md:leading-[120%]`, className)}>
+                <h1 className={cn(`xl:text-[70px] lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold xl:leading-[128%] lg:leading-[125%] md:leading-[120%] leading-[115%]`, className)}>
                     {children}
                 </h1>
             </SlideUp>

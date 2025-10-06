@@ -15,24 +15,35 @@ const MobileMenu = ({ isMobleMenuActive, setIsMobleMenuActive }) => {
         setDropdownActive(null)
         setIsMobleMenuActive(false)
     }, [pathname])
+
+    // Close on ESC for accessibility
+    useEffect(() => {
+        const handler = (e) => {
+            if (e.key === 'Escape') setIsMobleMenuActive(false)
+        }
+        window.addEventListener('keydown', handler)
+        return () => window.removeEventListener('keydown', handler)
+    }, [setIsMobleMenuActive])
     
     return (
         <div className="block xl:hidden">
-            <div className={`fixed left-0 top-0 w-full h-full bg-black/30 transition-all ${isMobleMenuActive ? "visible" : "invisible"}`}></div>
-            <nav className={`bg-warm border-l-2 border-l-primary w-full max-w-md min-h-screen h-full overflow-y-auto p-7 shadow-md fixed  ${isMobleMenuActive ? "right-0" : "-right-full"} top-0 z-50 transition-all duration-500`}>
+            {/* Screen overlay with pointer-events control */}
+            <div className={`fixed inset-0 w-full h-full bg-black/40 backdrop-blur-[2px] transition-opacity ${isMobleMenuActive ? "opacity-100 visible pointer-events-auto" : "opacity-0 invisible pointer-events-none"}`} aria-hidden={!isMobleMenuActive}></div>
+            {/* Slide-in panel with responsive max-width and safe-area padding */}
+            <nav className={`bg-warm border-l-2 border-l-primary w-full max-w-[85vw] sm:max-w-md min-h-screen h-full overflow-y-auto p-7 shadow-md fixed  ${isMobleMenuActive ? "right-0" : "-right-full"} top-0 z-50 transition-all duration-500`} aria-label="Mobile Navigation">
                 <div className="flex justify-between items-center">
                     {/* Replaced nested anchor with Logo to avoid <a> inside <a> */}
                     <Logo />
-                    <div className="bg-primary w-10 h-10 text-cream-foreground flex items-center justify-center rounded-[4px] left-4" onClick={() => setIsMobleMenuActive(false)}>
+                    <button type="button" aria-label="Close mobile menu" className="bg-primary w-11 h-11 text-cream-foreground flex items-center justify-center rounded-[4px] left-4" onClick={() => setIsMobleMenuActive(false)}>
                         <FaXmark className="text-xl" />
-                    </div>
+                    </button>
                 </div>
                 <ul className=" mt-6">
                     {
                         menuList.map(({ dropDownMenu, id, label, path }) => {
                             return (
                                 <li key={id} className="leading-[164%] relative w-full dropdown">
-                                    <Link onClick={() => setDropdownActive(dropdownActive === id ? null : id)} to={path} className="font-jost py-2.5 border-b border-b-slate-300 text-[#385469] flex justify-between items-center">
+                                    <Link onClick={() => setDropdownActive(dropdownActive === id ? null : id)} to={path} className="font-jost py-3 border-b border-b-slate-300 text-[#385469] flex justify-between items-center">
                                         <span>{label}</span>
                                         {dropDownMenu.length && <FaPlus />}
                                     </Link>

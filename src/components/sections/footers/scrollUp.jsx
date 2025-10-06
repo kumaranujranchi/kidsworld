@@ -9,7 +9,7 @@ const ScrollUp = () => {
         })
     }, [])
     return (
-        <div id="scroll-up" className="absolute bottom-20 xl:left-[90%] left-1/2 -translate-x-1/2 w-12.5 h-12.5 rounded-full bg-primary text-cream-foreground flex justify-center items-center border-[3px] border-white cursor-pointer">
+        <div id="scroll-up" aria-label="Scroll to top" className="fixed bottom-6 right-4 md:bottom-8 md:right-8 z-50 w-12.5 h-12.5 rounded-full bg-primary text-cream-foreground flex justify-center items-center border-[3px] border-white shadow-lg cursor-pointer">
             <FaArrowUp />
         </div>
     )
