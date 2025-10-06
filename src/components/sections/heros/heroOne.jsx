@@ -24,7 +24,7 @@ const HeroOne = () => {
             <img src={shap} alt="shap-2" className="w-5 h-8 -mt-7" />
           </div>
 
-          <p className="pt-4 sm:pt-5 max-w-[431px] w-full px-6 sm:px-0 text-muted-foreground text-sm sm:text-base leading-relaxed mx-auto">Starting a corporate business typically involves several steps, such as developing a business</p>
+          <p className="pt-4 sm:pt-5 max-w-[431px] w-full px-6 sm:px-0 text-muted-foreground text-sm sm:text-base leading-relaxed mx-auto">We nurture creativity, confidence, and a love for learning through engaging, child-centered experiences.</p>
           <div className="mt-6 w-full px-6 sm:px-0 flex justify-center">
             <Button asChild size="lg" variant={"secondary"} className="w-full max-w-[200px] sm:max-w-none sm:w-auto">
               <Link to="/about-us">Learn More</Link>

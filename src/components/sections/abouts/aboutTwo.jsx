@@ -18,8 +18,8 @@ const AboutTwo = () => {
                     <div className="">
                         <SectionName>About Us</SectionName>
                         <Title size={"3.5xl"} className={"lg:max-w-[410px] mt-2.5"}>Invest in education invest in the future</Title>
-                        <SectionDescription className={'mt-5'}>Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet massa turpis sit proin metus volutpat loren ipsum Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum</SectionDescription>
-                        <SectionDescription className={'mt-5'}>Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet massa turpis sit proin metus volutpat loren ipsum Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum</SectionDescription>
+                        <SectionDescription className={'mt-5'}>We nurture curiosity, creativity, and character through engaging activities and caring guidance.</SectionDescription>
+                        <SectionDescription className={'mt-5'}>Our classrooms are welcoming spaces where children explore, collaborate, and grow with confidence.</SectionDescription>
                         <SlideUp delay={3}>
                             <div className="flex gap-8 mt-10">
                                 <Button asChild size="lg" variant="pill" className="bg-primary border-primary hover:text-primary-foreground">

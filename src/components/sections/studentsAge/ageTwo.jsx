@@ -78,7 +78,7 @@ export default AgeTwo
 const Card = () => {
     return (
         <>
-            <p>Lorem ipsum dolor sit amet consectetur. Amet le ultricies dictum facilisis sem. Imperdiet massa turpis sit proin metus volut.Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet massa</p>
+            <p>Our age-wise learning paths focus on core skills, creativity, and social development—tailored to each stage.</p>
             <ul className="pt-5 flex flex-col gap-[15px]">
                 <li className="flex items-center gap-[15px]"><FaCheck className="text-destructive-foreground" /> <span className="text-[#686868]">Nurturing Young Minds</span> </li>
                 <li className="flex items-center gap-[15px]"><FaCheck className="text-destructive-foreground" /> <span className="text-[#686868]">Unlocking Potential Through Education</span> </li>

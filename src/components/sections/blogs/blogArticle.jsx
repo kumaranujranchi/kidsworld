@@ -27,7 +27,7 @@ const BlogArticle = () => {
             </SlideUp>
             <blockquote className="shadow-3xl xl:px-15 px-8 xl:py-[38px] py-5 my-10 rounded-[10px]">
                 <img src={qute} alt="blog-qute" />
-                <p className="mt-5">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled loren ipsum</p>
+                <p className="mt-5">Education opens doors to opportunity. When learning is joyful and meaningful, children become confident, curious, and resilient.</p>
                 <h4 className="text-xl font-bold leading-[130%] mt-[28px]">Fahad Hossain<span className="text-green-foreground">_</span> </h4>
             </blockquote>
             <div>

@@ -31,8 +31,8 @@ const FooterTwo = () => {
                         </div>
                         <ul className="flex flex-col lg:gap-[15px] gap-2.5 lg:pt-7.5 pt-5 min-w-[203px]">
                             <li><Link to="/about-us" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">About Us</Link></li>
-                            <li><Link to="/services" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Latest Service</Link></li>
-                            <li><Link to="/blog" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Latest Blog And News</Link></li>
+                            <li><Link to="/services" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Our Services</Link></li>
+                            <li><Link to="/blog" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Blog & News</Link></li>
                             <li><Link to="/faq" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">FAQ</Link></li>
                             <li><Link to="#" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Our Creative Team Member</Link></li>
                         </ul>

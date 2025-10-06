@@ -43,7 +43,7 @@ const Gallery = () => {
             <div className="container">
                 <div className="text-center flex flex-col items-center">
                     <SectionName>Latest Portfolio</SectionName>
-                    <Title size={"3.5xl"} className={"lg:max-w-[630px]"}>Exploring Minds Elementary School Education the only school</Title>
+                    <Title size={"3.5xl"} className={"lg:max-w-[630px]"}>Our Recent Projects and Classroom Moments</Title>
                 </div>
                 <div className="pt-10">
                     <ul className="flex items-center justify-center flex-wrap md:gap-7.5 gap-5">

@@ -18,9 +18,9 @@ const AgeOne = () => {
                         <div>
                             <div className="lg:max-w-[460px]">
                                 <SectionName>Student knowledge</SectionName>
-                                <Title size={"3.5xl"}>Knowledge for All learn design Excellence for Everyone</Title>
+                                <Title size={"3.5xl"}>Knowledge for All. Excellence for Everyone.</Title>
                             </div>
-                            <SectionDescription className={'pt-5 pb-7.5'}>Lorem ipsum dolor sit amet consectetur adipiscing elit platea  the osr of a proin mollis pretium facilisi in, ligula volutpat </SectionDescription>
+                            <SectionDescription className={'pt-5 pb-7.5'}>From early years to pre-teens, our activities grow curiosity, critical thinking, and collaboration.</SectionDescription>
                             <Button asChild variant="pill">
                                 <Link to={"/about-us"}>Learn More</Link>
                             </Button>

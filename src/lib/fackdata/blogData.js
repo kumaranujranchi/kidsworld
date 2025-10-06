@@ -14,7 +14,7 @@ export const bolgData = [
     {
         id:2,
         thumb:blog_2,
-        title:"Joyful Journeys Childcare and EducationIgniting Curiosity",
+        title:"Joyful Journeys: Childcare and Education — Igniting Curiosity",
         blog_desc:"",
         date:"October 20, 2023",
         author:"admin"

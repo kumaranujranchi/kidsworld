@@ -8,21 +8,20 @@ export const extraCurricularData = [
         title: "Tutoring Services",
         src: img_1,
         icon:'ring-bell',
-        desc: "Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisi Imperdiet massa turpis sit proin loren ipsum"
+        desc: "Personalized support to strengthen core subjects and study habits."
     },
     {
         id: 2,
         title: "Language Lessons",
         src: img_2,
         icon:'cap-doll',
-        desc: "Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisi Imperdiet massa turpis sit proin loren ipsum"
+        desc: "Fun, interactive sessions to improve communication and vocabulary."
     },
     {
         id: 3,
         title: "Study Skills Coaching",
         src: img_3,
         icon:'doll',
-        desc: "Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisi Imperdiet massa turpis sit proin loren ipsum"
+        desc: "Strategies for time management, note‑taking, and exam readiness."
     },
-
 ]

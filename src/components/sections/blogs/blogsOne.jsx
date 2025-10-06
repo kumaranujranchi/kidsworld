@@ -13,8 +13,8 @@ const BlogsOne = () => {
                     <div>
                         <div className="flex justify-between items-center lg:pb-15 pb-10">
                             <div className="lg:max-w-[630px]">
-                                <SectionName>Latest Blog And News</SectionName>
-                                <Title size={"3.5xl"}>Wonderworks Child Development Center Discovery Kids Preschool</Title>
+                                <SectionName>Stories and Updates from Kids World</SectionName>
+                                <Title size={"3.5xl"}>Stories and Updates from Kids World</Title>
                             </div>
                         </div>
                         <div className="grid lg:grid-cols-2 grid-cols-1 gap-7.5">

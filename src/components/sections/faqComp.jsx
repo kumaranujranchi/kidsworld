@@ -21,8 +21,8 @@ const FaqComp = () => {
           </div>
           <div>
             <div className="lg:max-w-[520px] pb-10">
-              <SectionName>Some Faq</SectionName>
-              <Title size={"3.5xl"}>Empowering Children Through Education Playful Mind</Title>
+              <SectionName>Frequently Asked Questions</SectionName>
+              <Title size={"3.5xl"}>Answers to Common Questions</Title>
             </div>
             <Accordion type="single" defaultValue="one" collapsible>
               {

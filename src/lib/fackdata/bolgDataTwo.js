@@ -14,8 +14,8 @@ export const blogDataTwo = [
     {
         id: 2,
         src: blog_2,
-        title: "Joyful Journeys Childcare and EducationIgniting Curiosity",
-        blog_desc: "Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet massa turpis sit proin metus volutpat loren ipsum",
+        title: "Joyful Journeys: Childcare and Education — Igniting Curiosity",
+        blog_desc: "Discover how playful learning builds confidence and academic readiness.",
         date: "23 Jan",
         author: "admin"
     },
@@ -23,7 +23,15 @@ export const blogDataTwo = [
         id: 3,
         src: blog_3,
         title: "Empowering Children Through Education the a Igniting",
-        blog_desc: "Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet massa turpis sit proin metus volutpat loren ipsum",
+        blog_desc: "Our caring educators create engaging classrooms that spark curiosity and creativity.",
+        date: "24 Jan",
+        author: "admin"
+    },
+    {
+        id: 4,
+        src: blog_3,
+        title: "Empowering Children Through Education the a Igniting",
+        blog_desc: "Families trust our programs to nurture skills, values, and lifelong love for learning.",
         date: "24 Jan",
         author: "admin"
     },

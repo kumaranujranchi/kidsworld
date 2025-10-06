@@ -25,7 +25,7 @@ const Products = () => {
                             <div className="lg:max-w-[430px] w-full md:order-0 order-1">
                                 <SlideUp> <h4 className="text-2xl font-semibold leading-[140%]">Empowering Children Through Education Igni Curiosity </h4></SlideUp>
                                 <h3 className="text-destructive-foreground lg:text-[32px] text-2xl font-bold mt-[15px]">₹{(29.80*83).toFixed(0)}</h3>
-                                <SectionDescription className={"mt-5"}>Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet massa turpis sit proin metus volutpat.Lorem ipsum dolor sit amet consectetur. </SectionDescription>
+                                <SectionDescription className={"mt-5"}>Explore learning materials and resources designed to build core skills and inspire creativity.</SectionDescription>
                                 <div className="flex gap-8 lg:mt-10 mt-7">
                                     <Button asChild size="lg" variant="pill">
                                         <Link to={"/about-us"}>Read More</Link>

@@ -17,19 +17,19 @@ const SuccessProjectOne = () => {
                 <div className="grid xl:grid-cols-2 lg:grid-cols-[40%_auto] grid-cols-1 gap-7.5">
 
                     <div className="lg:max-w-[600px]">
-                        <SectionName className={"text-primary-foreground"}>Number Talks</SectionName>
-                        <Title size={"3.5xl"} className={"lg:max-w-[410px] pb-5"}>Invest in education invest in the future</Title>
-                        <SectionDescription> Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet massa turpis sit proin metus volutpat loren ipsum Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum</SectionDescription>
+                        <SectionName className={"text-primary-foreground"}>Our Impact</SectionName>
+                        <Title size={"3.5xl"} className={"lg:max-w-[410px] pb-5"}>Invest in Education, Invest in the Future</Title>
+                        <SectionDescription>We measure success by smiles, skills, and community trust. Our programs support students across ages and abilities with a focus on holistic growth.</SectionDescription>
                         <Button asChild variant="outline" className="mt-10">
                             <Link to={"/contact-us"}>Get a quote</Link>
                         </Button>
                     </div>
 
                     <div className="grid sm:grid-cols-2 grid-cols-1 gap-7.5">
-                        <CardOne icon={<Kindergarden />} color={"bg-primary"} number={"20k"} title={"Running Students"} />
-                        <CardOne icon={<Book />} color={"bg-destructive"} number={"12K"} title={"Completed"} />
-                        <CardOne icon={<Blocks />} color={"bg-green"} number={"3K"} title={"Award Winning"} />
-                        <CardOne icon={<Chalkboard />} color={"bg-secondary"} number={"23K"} title={"Guardian Satishfaction"} />
+                        <CardOne icon={<Kindergarden />} color={"bg-primary"} number={"20k"} title={"Active Students"} />
+                        <CardOne icon={<Book />} color={"bg-destructive"} number={"12K"} title={"Programs Completed"} />
+                        <CardOne icon={<Blocks />} color={"bg-green"} number={"3K"} title={"Awards Won"} />
+                        <CardOne icon={<Chalkboard />} color={"bg-secondary"} number={"23K"} title={"Parent Satisfaction"} />
 
                     </div>
 
