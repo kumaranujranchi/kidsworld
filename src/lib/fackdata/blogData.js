@@ -1,6 +1,6 @@
-const blog_1 = "https://imagizer.imageshack.com/img924/6601/I8RSBl.png"
-const blog_2 = "https://imagizer.imageshack.com/img924/2011/NP17cC.png"
-const blog_3 = "https://imagizer.imageshack.com/img924/623/EeGEpX.png"
+import blog_1 from "@/assets/images/blog/blog-1.png"
+import blog_2 from "@/assets/images/blog/blog-2.png"
+import blog_3 from "@/assets/images/blog/blog-3.png"
 
 export const bolgData = [
     {
