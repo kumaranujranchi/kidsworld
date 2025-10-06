@@ -11,6 +11,7 @@ import Faq from "@/pages/faq";
 import LayoutTwo from "@/layout/layoutTwo";
 import HomeTwo from "@/pages/home-2";
 import HomeOne from "@/pages/home-1";
+import FranchiseOpportunity from "@/pages/franchise-opportunity";
 import LayoutThree from "@/layout/layoutThree";
 
 
@@ -71,6 +72,10 @@ export const router = createBrowserRouter([
             {
                 path: "/faq",
                 element: <Faq />
+            },
+            {
+                path: "/franchise-opportunity",
+                element: <FranchiseOpportunity />
             },
         ]
     },
