@@ -1,6 +1,6 @@
-const img_1 = "https://source.unsplash.com/1200x800/?kids,art,painting"
-const img_2 = "https://source.unsplash.com/1200x800/?children,playground,fun"
-const img_3 = "https://source.unsplash.com/1200x800/?teacher,classroom,reading"
+import img_1 from "@/assets/images/blog/blog-2-1.png"
+import img_2 from "@/assets/images/blog/blog-2-2.png"
+import img_3 from "@/assets/images/blog/blog-2-3.png"
 
 export const blogDataTwo = [
     {

@@ -1,7 +1,7 @@
-const img_1 = "https://source.unsplash.com/1200x800/?education,classroom,children"
-const img_2 = "https://source.unsplash.com/1200x800/?kids,learning,books"
-const img_3 = "https://source.unsplash.com/1200x800/?school,teacher,students"
-const img_4 = "https://source.unsplash.com/1200x800/?children,play,creativity"
+import img_1 from "@/assets/images/blog/blog-1.png"
+import img_2 from "@/assets/images/blog/blog-2.png"
+import img_3 from "@/assets/images/blog/blog-3.png"
+import img_4 from "@/assets/images/blog/blog-3-4.png"
 
 export const blogDataThree = [
     {
