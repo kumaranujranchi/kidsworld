@@ -27,7 +27,7 @@ const AboutOne = ({ gridClass, isAboutpage }) => {
                                     <div className="ml-9">
                                         <img src="https://imagizer.imageshack.com/img922/5443/ZOBl7x.png" alt="about-bg" className="w-full" />
                                     </div>
-                                    <div className="absolute -bottom-12.5 left-0 bg-primary rounded-[10px] py-4 px-[22px] flex items-center gap-3">
+                                    <div className="absolute left-0 sm:-bottom-12.5 -bottom-6 bg-primary rounded-[10px] py-4 px-[22px] flex items-center gap-3">
                                         <div className="bg-background w-11 h-11 rounded-full flex justify-center items-center">
                                             <img src={customer} alt="customer" />
                                         </div>
@@ -44,7 +44,8 @@ const AboutOne = ({ gridClass, isAboutpage }) => {
                                     <h6 className="text-xl font-bold">Academy</h6>
                                     <p>Learning Ladder School</p>
                                 </div>
-                                <div className="bg-background max-w-[212px] rounded-[11px] px-5 pt-[22px] pb-6 flex flex-col justify-center drop-shadow-[0px_4.8px_24.4px_rgba(19,16,34,0.10)]">
+-                                <div className="bg-background max-w-[212px] rounded-[11px] px-5 pt-[22px] pb-6 flex flex-col justify-center drop-shadow-[0px_4.8px_24.4px_rgba(19,16,34,0.10)]">
++                                <div className="bg-background max-w-[212px] rounded-[11px] px-5 pt-[22px] pb-6 flex flex-col justify-center drop-shadow-[0px_4.8px_24.4px_rgba(19,16,34,0.10)] sm:mt-8 mt-4">
                                     <h6 className="text-[32px] font-bold text-secondary-foreground">10+</h6>
                                     <p>Learning Ladder School</p>
                                 </div>
