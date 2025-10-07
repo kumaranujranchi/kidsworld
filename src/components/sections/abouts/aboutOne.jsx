@@ -38,14 +38,13 @@ const AboutOne = ({ gridClass, isAboutpage }) => {
                                     </div>
                                 </div>
                             </SlideUp>
-                            <div className="flex sm:flex-col gap-8">
+                            <div className="flex sm:flex-col gap-8 mt-14 sm:mt-0">
                                 <div className="bg-warm max-w-[212px] rounded-[11px] px-5 pt-[22px] pb-6 flex flex-col items-center justify-center text-center">
                                     <img src={icreement} alt="icreement" />
                                     <h6 className="text-xl font-bold">Academy</h6>
                                     <p>Learning Ladder School</p>
                                 </div>
--                                <div className="bg-background max-w-[212px] rounded-[11px] px-5 pt-[22px] pb-6 flex flex-col justify-center drop-shadow-[0px_4.8px_24.4px_rgba(19,16,34,0.10)]">
-+                                <div className="bg-background max-w-[212px] rounded-[11px] px-5 pt-[22px] pb-6 flex flex-col justify-center drop-shadow-[0px_4.8px_24.4px_rgba(19,16,34,0.10)] sm:mt-8 mt-4">
+                                <div className="bg-background max-w-[212px] rounded-[11px] px-5 pt-[22px] pb-6 flex flex-col justify-center drop-shadow-[0px_4.8px_24.4px_rgba(19,16,34,0.10)] sm:mt-8 mt-6">
                                     <h6 className="text-[32px] font-bold text-secondary-foreground">10+</h6>
                                     <p>Learning Ladder School</p>
                                 </div>
