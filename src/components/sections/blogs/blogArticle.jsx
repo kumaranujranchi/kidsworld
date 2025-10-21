@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { FaAngleLeft, FaAngleRight, FaCalendarDays, FaCheck, FaComments, FaPaperPlane, FaPhone, FaUser } from 'react-icons/fa6'
 import blog_details_1 from "@/assets/images/blog/blog-details-1.png"
 import blog_details_2 from "@/assets/images/blog/blog-details-2.png"
@@ -11,10 +11,12 @@ import SocalIcons from '@/components/ui/socalIcons'
 import SlideUp from '@/lib/animations/slideUp'
 
 const BlogArticle = () => {
+    const { state } = useLocation();
+    const heroSrc = state?.src || blog_details_1;
     return (
         <div>
             <SlideUp delay={2}>
-                <img src={blog_details_1} alt="blog-details-1" />
+                <img src={heroSrc} alt="blog-details-hero" />
                 <div className="pt-7.5">
                     <ul className="flex gap-7.5 pb-5 flex-wrap">
                         <li className='flex items-center'> <FaCalendarDays className='text-foreground' /> <span className="text-[#686868] ml-2.5">January 19, 2024</span> </li>
@@ -22,7 +24,7 @@ const BlogArticle = () => {
                         <li className='flex items-center'> <FaComments className='text-foreground' /> <span className="text-[#686868] ml-2.5">Comments (05)</span> </li>
                     </ul>
                     <h4 className="lg:text-[32px] md:text-[28px] text-xl lg:leading-[130%] md:leading-[120%] leading-[110%] font-bold pb-5">Unlock your potential with education ower yourself the na through learning.</h4>
-                    <p>IT Technology is a rapidly evolving field that encompasses a wide range of computer-rela Technology is a rapidly ya evolving field that encompasses a wide range of computer-related technologies and the services. From software thr development to network administrationtechnologies most of a man</p>
+                    <p>IT Technology is a rapidly evolving field that encompasses a wide range of computer-rela Technology is a rapidly ya evolving field that encompasses a wide range of computer-related technologies and the services. From software thr development to network administrationtechnologi...
                 </div>
             </SlideUp>
             <blockquote className="shadow-3xl xl:px-15 px-8 xl:py-[38px] py-5 my-10 rounded-[10px]">
