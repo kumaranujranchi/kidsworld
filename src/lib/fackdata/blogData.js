@@ -1,6 +1,8 @@
 import img_1 from "@/assets/images/blog/blog-1.png"
 import img_2 from "@/assets/images/blog/blog-2.png"
-import img_3 from "@/assets/images/blog/blog-3.png"
+
+// Use external URL for the large blog image
+const img_3 = "https://imagizer.imageshack.com/img922/3527/3JczHE.png"
 
 export const bolgData = [
     {
