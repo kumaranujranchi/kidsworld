@@ -24,7 +24,7 @@ const BlogArticle = () => {
                         <li className='flex items-center'> <FaComments className='text-foreground' /> <span className="text-[#686868] ml-2.5">Comments (05)</span> </li>
                     </ul>
                     <h4 className="lg:text-[32px] md:text-[28px] text-xl lg:leading-[130%] md:leading-[120%] leading-[110%] font-bold pb-5">Unlock your potential with education ower yourself the na through learning.</h4>
-                    <p>IT Technology is a rapidly evolving field that encompasses a wide range of computer-rela Technology is a rapidly ya evolving field that encompasses a wide range of computer-related technologies and the services. From software thr development to network administrationtechnologi...
+                    <p>IT Technology is a rapidly evolving field that encompasses a wide range of computer-rela Technology is a rapidly ya evolving field that encompasses a wide range of computer-related technologies and the services. From software thr development to network administrationtechnologi...</p>
                 </div>
             </SlideUp>
             <blockquote className="shadow-3xl xl:px-15 px-8 xl:py-[38px] py-5 my-10 rounded-[10px]">
