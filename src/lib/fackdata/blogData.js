@@ -1,9 +1,6 @@
-// Replace local imports with external URLs for the first two blog thumbs
-const img_1 = "https://imagizer.imageshack.com/img924/1659/3kTkl7.png"
-const img_2 = "https://imagizer.imageshack.com/img924/518/fhvEct.png"
-
-// Use external URL for the large blog image
-const img_3 = "https://imagizer.imageshack.com/img922/3527/3JczHE.png"
+import img_1 from "@/assets/images/blog/blog-1.png"
+import img_2 from "@/assets/images/blog/blog-2.png"
+import img_3 from "@/assets/images/blog/blog-3.png"
 
 export const bolgData = [
     {
