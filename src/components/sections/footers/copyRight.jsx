@@ -22,8 +22,9 @@ const CopyRight = ({ color }) => {
 
                 {/* Row 2: Credit line at very bottom */}
                 <p className="wow fadeInUp mt-5 text-center" data-wow-delay=".3s">
-                    <a href="https://synergybrandarchitect.in" target="_blank" rel="noopener noreferrer" className={cn('', color)}>
-                        Designed and maintained by Synergy Brand Architect
+                    <span className={cn('', color)}>This website is running on </span>
+                    <a href="https://www.siteonsub.com" target="_blank" rel="noopener noreferrer" style={{ color: '#F7941D' }} className="font-bold hover:underline">
+                        SiteOnSub
                     </a>
                 </p>
             </div>
